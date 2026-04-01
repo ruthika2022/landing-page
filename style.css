@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    background-color: black;
+}
+h1{
+    text-align: center;
+    color:white;
+}
+h2{
+    text-align: center;
+    color:white;
+}
+.book-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 60px;
+    color: white;
+}
+
+.book-list :hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+h3{
+    text-align: center;
+    color:white;
+}
+.book-list img{
+    border-radius: 10px;
+}
+
+.book-list p{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.marquee-container{
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
